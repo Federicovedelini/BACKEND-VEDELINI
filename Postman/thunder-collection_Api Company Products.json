@@ -1,0 +1,79 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Api Company Products",
+    "dateExported": "2023-05-09T22:45:45.898Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "b6e6900f-59dc-4c42-a3d9-993182c7d17e",
+            "name": "PRODUCTS",
+            "containerId": "",
+            "created": "2023-05-09T22:44:28.128Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "1a46e147-7c2a-4c6f-b0f3-c84a14e9c1a7",
+            "name": "USERS",
+            "containerId": "",
+            "created": "2023-05-09T22:44:56.017Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "d70236a1-4f5f-4f9c-a0b9-39d286c0f202",
+            "name": "AUTH",
+            "containerId": "",
+            "created": "2023-05-09T22:45:15.600Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a232b5e0-60a7-45d7-81e7-f189540ae716",
+            "colId": "b1f74c31-c898-4fa7-b143-b50ae9907e0f",
+            "containerId": "b6e6900f-59dc-4c42-a3d9-993182c7d17e",
+            "name": "GET PRODUCTS ",
+            "url": "http://localhost:5000/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-09T22:23:33.365Z",
+            "modified": "2023-05-09T22:44:30.287Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4bb5e1ef-d1c4-441c-bc90-f80d8bb276a9",
+            "colId": "b1f74c31-c898-4fa7-b143-b50ae9907e0f",
+            "containerId": "b6e6900f-59dc-4c42-a3d9-993182c7d17e",
+            "name": "GET PRODUCTS  Copy",
+            "url": "http://localhost:5000/products",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-05-09T22:25:18.421Z",
+            "modified": "2023-05-09T22:44:31.487Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"laptop lenovo\",\n  \"price\": 860.00,\n  \"category\": \"laptos\",\n  \"imgURL\":  \"https://tse2.mm.bing.net/th?id=OIP.b2s7QpF9he7Fr4C_7MxwmQHaHa&pid=Api&P=0\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
