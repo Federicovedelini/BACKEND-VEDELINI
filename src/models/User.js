@@ -34,7 +34,7 @@ userSchema.statics.comparePassword = async (password, receivedPassword) => {
 }
 
 
-export default model('User', userSchema)
+export default model('User', userSchema);
 
 
 

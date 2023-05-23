@@ -1,6 +1,8 @@
-import app from './app'
-import './database'
+import app from './app.js'
+import './database.js'
+import myJson from './example.json' assert {type: 'json'};
+
+
 
 app.listen(5000);
 
-console.log('Server listen on port', 5000)

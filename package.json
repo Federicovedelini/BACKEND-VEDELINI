@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "babel src --out-dir build",
-    "dev": "nodemon src/index.js --exec babel-node",
+    "dev": "nodemon src/index.js",
     "start": "node build/index.js"
   },
   "keywords": [],
@@ -22,10 +22,6 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.21.5",
-    "@babel/core": "^7.21.8",
-    "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.21.5",
     "nodemon": "^2.0.22"
   }
 }
